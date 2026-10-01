@@ -1,0 +1,21 @@
+{
+  "name": "server-side",
+  "version": "1.0.0",
+  "description": "TaskFlow Todo App Backend API",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node init && node server.cjs",
+    "dev": "node init && node --watch server.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  }
+}
